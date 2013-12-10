@@ -1,0 +1,3 @@
+pop '(:a :b :c)
+(pop '(:a :b :c))
+exit
