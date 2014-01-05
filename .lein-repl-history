@@ -1,3 +1,15 @@
 pop '(:a :b :c)
 (pop '(:a :b :c))
 exit
+(. System exit 0)
+(* 4 5)
+let [x 5]
+(defn explain-defcon-level [exercise-term]
+  (case exercise-term
+        :fade-out          :you-and-what-army
+        :double-take       :call-me-when-its-important
+        :round-house       :o-rly
+        :fast-pace         :thats-pretty-bad
+        :cocked-pistol     :sirens
+        :say-what?))
+(explain-defcon-level :yo-mama)
